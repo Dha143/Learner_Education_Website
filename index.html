@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Learner's Education | Multi-Course Training Center</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="image/logo.PNG" style="width: 50px;height: 30px;"> <span class="logotxt">The Learner's Education</span> 
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Our Courses</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <h1>Empower Your Future With Practical Skills</h1>
+            <p>From academic excellence to creative arts and professional tech courses—discover the perfect program tailored for your growth.</p>
+            <div class="hero-cta">
+                <a href="#courses" class="btn btn-primary">Explore Courses</a>
+                <a href="#contact" class="btn btn-secondary">Enroll Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Why Choose <span>The Learner's Education</span>?</h2>
+                    <p>We are a premier multi-disciplinary training institute dedicated to nurturing talent, building professional skill sets, and fostering academic growth. Whether you are looking to boost your child's math skills, pick up a creative hobby, or upskill for a tech career, we have a specialized program for you.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> Experienced & Certified Instructors</li>
+                        <li><i class="fas fa-check-circle"></i> Flexible Batches (Weekday & Weekends)</li>
+                        <li><i class="fas fa-check-circle"></i> Practical, Hands-on Training Formats</li>
+                        <li><i class="fas fa-check-circle"></i> Affordable Fee Structure with Certification</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>9+</h3>
+                        <p>Diverse Streams</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>1500+</h3>
+                        <p>Graduated Students</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>25+</h3>
+                        <p>Expert Tutors</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>100%</h3>
+                        <p>Practical Focus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Diverse Training Programs</h2>
+                <p>Filter by your field of interest and kickstart your learning journey today.</p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Courses</button>
+                <button class="filter-btn" data-filter="academic">Academics & Logic</button>
+                <button class="filter-btn" data-filter="creative">Creative & Arts</button>
+                <button class="filter-btn" data-filter="professional">Professional Skills</button>
+                <button class="filter-btn" data-filter="lifestyle">Wellness & Lifestyle</button>
+            </div>
+
+            <div class="courses-grid">
+                
+                <div class="course-card" data-category="academic">
+                    <div class="course-icon"><i class="fas fa-book-reader"></i></div>
+                    <h3>Tuition Center</h3>
+                    <p>Comprehensive academic coaching for school students across various boards. Focus on core conceptual understanding and exam excellence.</p>
+                    <span class="tag">School Board Prep</span>
+                </div>
+
+                <div class="course-card" data-category="academic">
+                    <div class="course-icon"><i class="fas fa-calculator"></i></div>
+                    <h3>Abacus Training</h3>
+                    <p>Boost your child's mental arithmetic speeds, concentration capacities, and overall brain development using proven abacus methodologies.</p>
+                    <span class="tag">Ages 5-14</span>
+                </div>
+
+                <div class="course-card" data-category="creative">
+                    <div class="course-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Tailoring Classes</h3>
+                    <p>Master garment construction, dress designing, fabric cutting, and advanced sewing patterns from fundamental to boutique levels.</p>
+                    <span class="tag">Certification Included</span>
+                </div>
+
+                <div class="course-card" data-category="professional">
+                    <div class="course-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Beauty & Makeup</h3>
+                    <p>Learn professional bridal makeup, skincare therapies, hairstyling techniques, and salon management practices to start your own business.</p>
+                    <span class="tag">Self-Paced / Pro</span>
+                </div>
+
+                <div class="course-card" data-category="professional">
+                    <div class="course-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Computer Courses</h3>
+                    <p>Gain vital tech skills! Modules covering Basic Office Automation, Graphic Design, Web Development paradigms, and Python Coding basics.</p>
+                    <span class="tag">Tech Ready</span>
+                </div>
+
+                <div class="course-card" data-category="professional">
+                    <div class="course-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Spoken English</h3>
+                    <p>Conquer public speaking anxieties. Build fluent English communication skills, vocabulary, accent training, and interview preparation.</p>
+                    <span class="tag">Corporate & General</span>
+                </div>
+
+                <div class="course-card" data-category="creative">
+                    <div class="course-icon"><i class="fas fa-pen-fancy"></i></div>
+                    <h3>Drawing & Handwriting</h3>
+                    <p>Enhance fine motor skills through sketching, painting styles, and systematic cursive/print handwriting improvement classes.</p>
+                    <span class="tag">All Age Groups</span>
+                </div>
+
+                <div class="course-card" data-category="lifestyle">
+                    <div class="course-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Cooking Classes</h3>
+                    <p>Discover culinary arts! Special modules covering continental baking, traditional cuisines, gourmet plating, and quick-snack creations.</p>
+                    <span class="tag">Hobby & Commercial</span>
+                </div>
+
+                <div class="course-card" data-category="lifestyle">
+                    <div class="course-icon"><i class="fas fa-spa"></i></div>
+                    <h3>Yoga Classes</h3>
+                    <p>Rejuvenate your body and mind with our professional Asanas, Pranayama breathing modules, and holistic meditation workshops.</p>
+                    <span class="tag">Health & Fitness</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Students Say</h2>
+            </div>
+            <div class="slider-wrapper">
+                <div class="testimonial-slider">
+                    <div class="testimonial-item active">
+                        <p>"The Computer and Spoken English courses completely transformed my confidence. I cleared my corporate interview within two weeks of completing the program!"</p>
+                        <h4>- Priya Sharma</h4>
+                        <span>Web Developer & Alumna</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"My son's math scores and processing speed improved tremendously after enrolling in the Abacus and Tuition classes here. Highly recommended mentors!"</p>
+                        <h4>- Rajesh Kumar</h4>
+                        <span>Parent</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"The professional Tailoring and Makeup certificates helped me launch my home boutique setup. The practical business tips shared by mentors were invaluable."</p>
+                        <h4>- Anita Desai</h4>
+                        <span>Boutique Owner</span>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button id="prev-test"><i class="fas fa-chevron-left"></i></button>
+                    <button id="next-test"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Ready to Begin?</h2>
+                    <p>Drop us a message or visit our campus. Our academic counselors will reach out to help you choose the best shift timings.</p>
+                    <br>
+                    <div class="info-details">
+                        <p>Address : No.20,GG Building,Mahamagam Kulam Melakarai,<br>(Near Sai Baba Kovil),Kumbakonam</p>
+                        <p>Phone No:9626498850</p>
+                        <p>Email id:thelearner.edu@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="enrollmentForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="course-select" required>
+                                <option value="" disabled selected>Select Your Desired Course</option>
+                                <option value="Tuition Center">📚 Tuition Center</option>
+                                <option value="Abacus Training">🧮 Abacus Training</option>
+                                <option value="Tailoring Classes">✂ Tailoring Classes</option>
+                                <option value="Beauty & Makeup">💄 Beauty & Makeup Courses</option>
+                                <option value="Computer Courses">💻 Computer Courses</option>
+                                <option value="Spoken English">🗣 Spoken English</option>
+                                <option value="Drawing & Handwriting">🎨 Drawing & Handwriting</option>
+                                <option value="Cooking Classes">👩‍🍳 Cooking Classes</option>
+                                <option value="Yoga Classes">🧘 Yoga Classes</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Any specific requirements or questions?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+                    </form>
+                    <div id="form-feedback" class="form-feedback"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p style="text-align: center;">&copy; 2026 The Learner's Education. All Rights Reserved.</p>
+            
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
